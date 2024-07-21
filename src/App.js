@@ -1,14 +1,13 @@
-import "./App.css";
-import Countdown from "./components/countdown/countdown";
+import React from "react";
+import FormComponent from "./components/FormComponent/FormComponent";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <main>
-        <Countdown />
-      </main>
+    <div className="App">
+      <h1>React Form with Validation</h1>
+      <FormComponent />
     </div>
   );
-}
+};
 
 export default App;
